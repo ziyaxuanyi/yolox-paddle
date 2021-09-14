@@ -25,9 +25,9 @@ pip install cython; pip install 'git+https://github.com/cocodataset/cocoapi.git#
 ```
 
 ### 数据集准备
-官网下载coco2017数据集https://cocodataset.org/#download，
-或者百度云https://pan.baidu.com/s/1OLX8weMf63wgn4Eugx1jKw（提取码：evnp）
-解压到数据集目录datasets，数据集目录应该是如下形式
+官网下载coco2017数据集(https://cocodataset.org/#download)，
+或者百度云(https://pan.baidu.com/s/1OLX8weMf63wgn4Eugx1jKw),提取码：evnp。
+解压到数据集目录datasets，数据集目录应该是如下形式：
 ```
 COCO/
   annotations/
