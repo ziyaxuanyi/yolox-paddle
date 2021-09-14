@@ -10,7 +10,7 @@ pip install paddle paddlepaddle-gpu # gpu
 
 运行
 ```shell
-python yolox-paddle/test_paddle_gpu.py
+python some_test_code/test_paddle_gpu.py
 ```
 
 出现版本号和Your Paddle Fluid is installed successfully!说明成功
@@ -35,3 +35,10 @@ COCO/
   {train,val}2017/
     # image files that are mentioned in the corresponding json
 ```
+
+## 3.pycocotools简单使用和标注框可视化
+运行
+```shell
+python some_test_code/test_coco_datasets.py
+```
+可参考https://blog.csdn.net/qq_37541097/article/details/113247318
