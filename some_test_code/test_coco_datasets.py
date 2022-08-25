@@ -38,8 +38,8 @@ for img_id in ids[0:3]:
         cv2.putText(img, coco_classes[target["category_id"]], (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
     
     cv2.imwrite("some_test_code/" + image_name, img)
-    # cv2.imshow("img", img)
-    # cv2.waitKey(0)
+    cv2.imshow("img", img)
+    cv2.waitKey(0)
 
 
 print("haha")
